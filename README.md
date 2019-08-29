@@ -25,4 +25,4 @@ Github: @
 Email: 
 
 ## License
-This project is licensed under the MIT [license]()
+This software is licensed under the MIT [license](https://github.com/msc-acse/acse-9-independent-research-project-erizmr/blob/master/License)
