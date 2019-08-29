@@ -12,7 +12,6 @@ Enjoy the whole night.
 
 ## Dependencies
 To be able to run this software, the following packages and versions are required:
-
  
 
 
@@ -20,9 +19,9 @@ To be able to run this software, the following packages and versions are require
 
 Author： Mingrui Zhang
 
-Github: @
+Github: @erizmr
 
-Email: 
+Email: mingrui.zhang18@imperial.ac.uk
 
 ## License
 This software is licensed under the MIT [license](https://github.com/msc-acse/acse-9-independent-research-project-erizmr/blob/master/License)
