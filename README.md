@@ -7,6 +7,13 @@ A network for end-to-end fluid flow inference called Particle-Net is presented i
 
 ![decoder_inference_net](https://user-images.githubusercontent.com/33411325/64019939-55324900-cb28-11e9-998c-b445222c502b.png)
 
+## Sample results
+
+- Inference results
+![Re3450_veloc_200_predictions](https://user-images.githubusercontent.com/33411325/63270149-79bc3480-c28f-11e9-816e-1abb7117442c.gif)
+
+- Labels
+![labels](https://user-images.githubusercontent.com/33411325/63270138-745eea00-c28f-11e9-9116-1a4890d69494.gif)
 
 ## Installation instructions
 
