@@ -40,7 +40,7 @@ pip install PACKAGENAME
 ## Repo Structure
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/33411325/64020043-8b6fc880-cb28-11e9-92a6-d06e00fece57.png" width="310" height="210"><br>
+  <img src="https://user-images.githubusercontent.com/33411325/64020043-8b6fc880-cb28-11e9-92a6-d06e00fece57.png" width="484" height="214"><br>
 </p>
 
 ## Run test cases
