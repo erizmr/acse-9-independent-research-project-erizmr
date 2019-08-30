@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module tools</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>tools</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Clunal%5Cdownloads%5Cmachine_learning%5Ctools.py">c:\users\lunal\downloads\machine_learning\tools.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="torch.nn.functional.html">torch.nn.functional</a><br>
+<a href="scipy.ndimage.html">scipy.ndimage</a><br>
+</td><td width="25%" valign=top><a href="torch.nn.html">torch.nn</a><br>
+<a href="numpy.html">numpy</a><br>
+</td><td width="25%" valign=top><a href="matplotlib.pyplot.html">matplotlib.pyplot</a><br>
+<a href="random.html">random</a><br>
+</td><td width="25%" valign=top><a href="torch.html">torch</a><br>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-data_collect"><strong>data_collect</strong></a>(train_data, train_end_frame, test_end_frame)</dt><dd><tt>Collect,&nbsp;stack&nbsp;and&nbsp;divide&nbsp;data&nbsp;into&nbsp;train&nbsp;and&nbsp;test&nbsp;set</tt></dd></dl>
+ <dl><dt><a name="-infer_plot"><strong>infer_plot</strong></a>(predictions, device='cpu', n_max=4, contour=True, quiv=False, save=False)</dt><dd><tt>Visualization&nbsp;function&nbsp;for&nbsp;predictions&nbsp;<br>
+There&nbsp;are&nbsp;some&nbsp;extra&nbsp;functions&nbsp;could&nbsp;be&nbsp;choosn:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<br>
+contour:&nbsp;whether&nbsp;to&nbsp;draw&nbsp;the&nbsp;contour&nbsp;line<br>
+quiv:&nbsp;whether&nbsp;to&nbsp;draw&nbsp;the&nbsp;quiver&nbsp;plot<br>
+save:&nbsp;whether&nbsp;to&nbsp;save&nbsp;the&nbsp;figures</tt></dd></dl>
+ <dl><dt><a name="-norm201"><strong>norm201</strong></a>(data)</dt><dd><tt>Normalization&nbsp;function,&nbsp;make&nbsp;the&nbsp;range&nbsp;of&nbsp;the&nbsp;data&nbsp;in&nbsp;the&nbsp;range&nbsp;0-1</tt></dd></dl>
+ <dl><dt><a name="-set_seed"><strong>set_seed</strong></a>(seed)</dt><dd><tt>Control&nbsp;the&nbsp;seed&nbsp;to&nbsp;help&nbsp;re-run&nbsp;experiments</tt></dd></dl>
+ <dl><dt><a name="-train"><strong>train</strong></a>(model, optimizer, criterion, data_loader, device='cpu')</dt><dd><tt>Train&nbsp;function,&nbsp;update&nbsp;every&nbsp;iteration,&nbsp;calculate&nbsp;training&nbsp;loss</tt></dd></dl>
+ <dl><dt><a name="-validate"><strong>validate</strong></a>(model, criterion, data_loader, device='cpu')</dt><dd><tt>Validation&nbsp;function,&nbsp;calculate&nbsp;validation&nbsp;loss</tt></dd></dl>
+</td></tr></table>
+</body></html>
