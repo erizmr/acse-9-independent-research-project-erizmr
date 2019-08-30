@@ -17,7 +17,7 @@ A network for end-to-end fluid flow inference called Particle-Net is presented i
 
 
 <p align="center">
-  <img src="![PIV_images](https://user-images.githubusercontent.com/33411325/64030768-21165280-cb3f-11e9-87c3-a6709dd9f26d.gif)" ><br>
+  <img src="https://user-images.githubusercontent.com/33411325/64030768-21165280-cb3f-11e9-87c3-a6709dd9f26d.gif" ><br>
 </p>
 
 
