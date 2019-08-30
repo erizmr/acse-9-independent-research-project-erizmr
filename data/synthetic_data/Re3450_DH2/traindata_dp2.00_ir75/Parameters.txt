@@ -1,0 +1,5 @@
+Dataset size: (59, 2, 180, 300)
+Paticle diameter: 2.0
+Insert Rate: 75
+Particle Density: 0.06018518518518518
+Noise:no
