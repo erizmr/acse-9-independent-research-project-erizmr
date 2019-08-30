@@ -12,11 +12,13 @@ A network for end-to-end fluid flow inference called Particle-Net is presented i
 
 - Firedrake and Thetis
 
+The Thetis official installation instructions is [here](https://thetisproject.org/download.html)
 Thetis requires installation of Firedrake (available for Ubuntu, Mac, and in principle other Linux and Linux-like systems) and must be run from within the Firedrake virtual environment. You can install both Firedrake and Thetis by running:
-'''bash
-curl -O https://raw.githubusercontent.com/firedrakeproject/firedrake/master/scripts/firedrake-install
-python3 firedrake-install --install thetis
-'''
+
+```bash
+  curl -O https://raw.githubusercontent.com/firedrakeproject/firedrake/master/scripts/firedrake-install
+  python3 firedrake-install --install thetis
+```
 
 ## Documentation
 
@@ -28,8 +30,12 @@ python3 firedrake-install --install thetis
 ## Dependencies
 To be able to run this software, the following packages and versions are required:
 
-
-
+- Firedrake (2019)
+- Thetis (2019)
+- Pytorch (1.1.0)
+- ParticleModule (2019)
+- SciPy (v1.3.0)
+- NumPy (v1.16.4)
 
 ## Author and Course Information
 
