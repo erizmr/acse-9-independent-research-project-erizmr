@@ -71,7 +71,7 @@ If you successfully download and put it in the folder and then load it into your
 
 - Data processing
 
-The DataProcessing notebook in the notebook folder is a collection of all data processing methods in this project. The data foramt includes vtu, vtp, txt, tif/png/jpg. You can play with some samples data by openning the notebook in its folder, and then click 'run all cells'.
+The DataProcessing notebook in the notebook folder is a collection of all data processing methods in this project. The data foramt includes vtu, vtp, txt, tif/png/jpg. You can play with some samples data by openning the notebook in its folder, and then click ```run all cells```.
 
 ## Dependencies
 To be able to run this software, the following packages and versions are required:
