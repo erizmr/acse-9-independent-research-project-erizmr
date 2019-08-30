@@ -1,5 +1,5 @@
-# acse-9-independent-research-project-erizmr
-acse-9-independent-research-project-erizmr created by GitHub Classroom
+# ACSE-9 Independent Research Project
+## Shallow water flow field inference using convolutional neuralnetworks with particle images
 
 
 ## Introduction
@@ -10,6 +10,13 @@ A network for end-to-end fluid flow inference called Particle-Net is presented i
 
 ## Installation instructions
 
+- Firedrake and Thetis
+
+Thetis requires installation of Firedrake (available for Ubuntu, Mac, and in principle other Linux and Linux-like systems) and must be run from within the Firedrake virtual environment. You can install both Firedrake and Thetis by running:
+'''bash
+curl -O https://raw.githubusercontent.com/firedrakeproject/firedrake/master/scripts/firedrake-install
+python3 firedrake-install --install thetis
+'''
 
 ## Documentation
 
