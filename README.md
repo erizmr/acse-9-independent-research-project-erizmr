@@ -5,11 +5,15 @@
 ## Introduction
 A network for end-to-end fluid flow inference called Particle-Net is presented in this project. The Particle-Net is able to infer the flow velocity field for shallow water problems from images of advected particles. Particle-Net outperforms the state-of-the-art particle image velocimetry (PIV) software PIVlab on synthetic data sets, both in terms of accuracy and efficiency, especially on extremely low-quality particle images. The root means square error and relative error of Particle-Net inference result are $60\%$ lower than that of PIVlab. In addition, even though Particle-Net was trained using only synthetic data, it still shows a promising ability to infer flow fields from real lab data even with sparse particles, although it does not outperform PIVlab on all lab data. Particle-Net processes images 25 times faster than PIVlab and is able to process nearly 72 pairs per second, which is quite promising for real-time fluid flow inference.
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/33411325/64019939-55324900-cb28-11e9-998c-b445222c502b.png" width="500" height="440"><br>
+</p>
+
 ![decoder_inference_net](https://user-images.githubusercontent.com/33411325/64019939-55324900-cb28-11e9-998c-b445222c502b.png)
 
 ## Sample results
 
-- Inference results
+- Inference results on unseen data
 ![Re3450_veloc_200_predictions](https://user-images.githubusercontent.com/33411325/63270149-79bc3480-c28f-11e9-816e-1abb7117442c.gif)
 
 - Labels
@@ -26,6 +30,11 @@ Thetis requires installation of Firedrake (available for Ubuntu, Mac, and in pri
   curl -O https://raw.githubusercontent.com/firedrakeproject/firedrake/master/scripts/firedrake-install
   python3 firedrake-install --install thetis
 ```
+- Other package and libraries
+It is recommended to use the command below to install other package and libraries.
+```bash
+pip install PACKAGENAME
+```
 
 ## Documentation
 
@@ -33,6 +42,25 @@ Thetis requires installation of Firedrake (available for Ubuntu, Mac, and in pri
 
 ![Software_architecture (1)](https://user-images.githubusercontent.com/33411325/64020043-8b6fc880-cb28-11e9-92a6-d06e00fece57.png)
 
+
+## Run test cases
+
+- Machine learning part
+Although the codes in this part are designed for GPU, it can also be executed on a CPU only machine.
+You can run a test train on a super mini size dataset:
+```bash
+  cd machine_learning
+  python3 train.py
+```
+If the ram is not run out, you can see the moving training and validation loss.
+
+Also a trained model is provided [here](https://drive.google.com/file/d/1ZD_XnRa3UW4NaDCQVukkvrS2EmHrW7Rb/view?usp=sharing). You can download it and put it in the ```model_trained``` folder, then run the commands below.
+
+```bash
+  cd machine_learning
+  python3 load_and_visualization.py
+```
+The model is quite large (about 443 mb). If you successfully download and put it in the folder and then load it into your machine. You can see some fluid flow velocity field images infered by the ParticleNet.
 
 ## Dependencies
 To be able to run this software, the following packages and versions are required:
