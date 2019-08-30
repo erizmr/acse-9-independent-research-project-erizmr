@@ -76,6 +76,8 @@ To be able to run this software, the following packages and versions are require
 
 Author： Mingrui Zhang
 
+CID: 01535292
+
 Github: @erizmr
 
 Email: mingrui.zhang18@imperial.ac.uk
