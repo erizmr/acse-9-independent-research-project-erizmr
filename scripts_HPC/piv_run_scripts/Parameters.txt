@@ -1,0 +1,4 @@
+Re: 3450
+D/H: 2
+INSERTION_RATE: 80.0
+Particle Density: 0.0644122383253
