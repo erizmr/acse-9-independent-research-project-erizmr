@@ -4,7 +4,7 @@
 
 
 ## Introduction
-A network for end-to-end fluid flow inference called Particle-Net is presented in this project. The Particle-Net is able to infer the flow velocity field for shallow water problems from images of advected particles. Particle-Net outperforms the state-of-the-art particle image velocimetry (PIV) software PIVlab on synthetic data sets, both in terms of accuracy and efficiency, especially on extremely low-quality particle images. The root means square error and relative error of Particle-Net inference result are $60\%$ lower than that of PIVlab. In addition, even though Particle-Net was trained using only synthetic data, it still shows a promising ability to infer flow fields from real lab data even with sparse particles, although it does not outperform PIVlab on all lab data. Particle-Net processes images 25 times faster than PIVlab and is able to process nearly 72 pairs per second, which is quite promising for real-time fluid flow inference.
+A network for end-to-end fluid flow inference called Particle-Net is presented in this project. The Particle-Net is able to infer the flow velocity field for shallow water problems from images of advected particles. Particle-Net outperforms the state-of-the-art particle image velocimetry (PIV) software PIVlab on synthetic data sets, both in terms of accuracy and efficiency, especially on extremely low-quality particle images. The root means square error and relative error of Particle-Net inference result are 60% lower than that of PIVlab. In addition, even though Particle-Net was trained using only synthetic data, it still shows a promising ability to infer flow fields from real lab data even with sparse particles, although it does not outperform PIVlab on all lab data. Particle-Net processes images 25 times faster than PIVlab and is able to process nearly 72 pairs per second, which is quite promising for real-time fluid flow inference.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/33411325/64025420-8e70b600-cb34-11e9-9545-1f279c2a12a1.png" width="619" height="420"><br>
@@ -15,17 +15,22 @@ A network for end-to-end fluid flow inference called Particle-Net is presented i
 
 - Particle Images
 
-
+High quality input
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/33411325/64030768-21165280-cb3f-11e9-87c3-a6709dd9f26d.gif" ><br>
+  <img src="https://user-images.githubusercontent.com/33411325/64683586-745f9d80-d47b-11e9-95d5-be2fb40184b9.gif" ><br>
+</p>
+
+Low quality input
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/33411325/64683547-5eea7380-d47b-11e9-813f-63d598bb9552.gif" ><br>
 </p>
 
 
 - Inference results on unseen data
-![Re3450_veloc_200_predictions](https://user-images.githubusercontent.com/33411325/63270149-79bc3480-c28f-11e9-816e-1abb7117442c.gif)
+![Re3450_veloc_200_predictions](https://user-images.githubusercontent.com/33411325/64683051-71b07880-d47a-11e9-8d81-d7be31c3acb2.gif)
 
 - Ground Truth
-![labels](https://user-images.githubusercontent.com/33411325/63270138-745eea00-c28f-11e9-9116-1a4890d69494.gif)
+![labels](https://user-images.githubusercontent.com/33411325/64683322-f4d1ce80-d47a-11e9-9646-24fd61fd8af8.gif)
 
 ## Installation instructions
 
@@ -46,7 +51,13 @@ The ParicleModule could be run on a virtual machine, for detail information and 
 - Other package and libraries
 It is recommended to use the command below to install other package and libraries.
 ```bash
-pip install PACKAGENAME
+   pip install numpy
+   pip install scipy
+   pip install sklearn 
+   pip install matplotlib
+   pip install torch
+   pip install cmocean
+   pip install vtk
 ```
 
 ## Documentation
@@ -76,7 +87,7 @@ Also a trained model is provided [here](https://drive.google.com/file/d/1ZD_XnRa
   cd machine_learning
   python3 load_and_visualization.py
 ```
-If you successfully download and put it in the folder and then load it into your machine. You can see some fluid flow velocity field images infered by the ParticleNet.
+If you successfully download and put it in the folder ```model_trained``` and then load it into your machine. You can see some fluid flow velocity field images infered by the ParticleNet.
 
 - Data processing
 
@@ -92,6 +103,9 @@ To be able to run this software, the following packages and versions are require
 - SciPy (v1.3.0)
 - NumPy (v1.16.4)
 - vtk (v6.0.0)
+
+## PowerPoint
+The presentation PowerPoint download link is [here](https://github.com/msc-acse/acse-9-independent-research-project-erizmr/blob/master/final_presentation_Mingrui_Zhang.pptx?raw=true).
 
 ## Author and Course Information
 
