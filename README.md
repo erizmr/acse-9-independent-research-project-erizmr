@@ -15,18 +15,18 @@ A network for end-to-end fluid flow inference called Particle-Net is presented i
 
 - Particle Images
 
-High quality input
+High quality input (particle density 0.07 particle per pixel)
 <p align="center">
   <img src="https://user-images.githubusercontent.com/33411325/64683586-745f9d80-d47b-11e9-95d5-be2fb40184b9.gif" ><br>
 </p>
 
-Low quality input
+Low quality input (particle density 0.007 particle per pixel)
 <p align="center">
   <img src="https://user-images.githubusercontent.com/33411325/64683547-5eea7380-d47b-11e9-813f-63d598bb9552.gif" ><br>
 </p>
 
 
-- Inference results on unseen data
+- Inference results on unseen data with low quality input
 ![Re3450_veloc_200_predictions](https://user-images.githubusercontent.com/33411325/64683051-71b07880-d47a-11e9-8d81-d7be31c3acb2.gif)
 
 - Ground Truth
